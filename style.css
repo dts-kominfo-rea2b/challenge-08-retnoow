@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(199, 199, 212);
+  color: #333333;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#app {
+  max-width: 450px;
+  width: 90%;
+  background: white;
+  margin: 5% auto;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+#todo-title {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#todo-subtitle {
+  font-size: 0.85rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#todo-input {
+  outline: none;
+  height: 35px;
+  padding: 15px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+#todo-input:hover {
+  border: 1px solid black;
+}
+
+#todo-submit {
+  border: none;
+  background: blue;
+  color: #fff;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#todo-output {
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
